@@ -12,6 +12,6 @@ def register():
 
 @app.route('/success', methods=['POST'])
 def success():
-    return '<h2>Registration Successful</h2>'
+    return '<h2>Registration Successful! Welcome!</h2>'
 
 app.run(debug=True)
